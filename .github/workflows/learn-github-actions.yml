@@ -22,5 +22,6 @@ jobs:
           channel: 'stable'
       - run: flutter create .
       - run: flutter pub get
+      - run: flutter test -d all integration_test
       - run: flutter test -d all
 
