@@ -22,7 +22,5 @@ jobs:
           channel: 'stable'
       - run: flutter create .
       - run: flutter pub get
-      - run: flutter test -d all integration_test/add_new_todo_item_test.dart
-      - run: flutter test -d all integration_test/edit_existing_item_test.dart
-      - run: flutter test -d all integration_test/delete_existing_item_test.dart
+      - run: flutter test -d all
 
