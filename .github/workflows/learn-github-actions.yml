@@ -56,7 +56,7 @@ jobs:
         with:
           api-level: ${{ matrix.api-level }}
           arch: x86_64
-          profile: Nexus 6
+          profile: Nexus 10
           script: flutter test integration_test --verbose
 
 #  # job responsible for running Flutter tests on iOS devices
